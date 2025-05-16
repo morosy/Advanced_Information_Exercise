@@ -2,6 +2,7 @@ version: "3.9"
 
 services:
     web:
+        container_name: advanced_information_exercise
         build:
             context: .
             dockerfile: .devcontainer/Dockerfile
